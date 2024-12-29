@@ -1,8 +1,9 @@
 const Navigation = () => {
   return (
     <nav>
-      <div className="nav_logo">
-        <img href="#" src="pal logo nav.svg" alt="PAL logo" />
+      <div className="nav-logo">
+        <img href="#" src="./images/pal logo nav.svg" alt="PAL logo" />
+        <p className="name">Prime Automations Ltd.</p>
       </div>
       <div className="nav-links">
         <ul>
