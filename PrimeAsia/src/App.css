@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-left: 25px;
+  background-color: lightgreen;
+}
+
+.nav-links ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin-right: 50px;
+}
+.nav-links li {
+  font-family: SemiBold;
+  font-size: 18px;
+  cursor: pointer;
+  transition: color 0.25s;
+}
+.nav-links li:hover {
+  color: darkgray;
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+
+@font-face {
+  font-family: Bold;
+  src: url(../public/fonts/SpaceGrotesk-Bold.ttf);
+}
+@font-face {
+  font-family: Light;
+  src: url(../public/fonts/SpaceGrotesk-Light.ttf);
+}
+@font-face {
+  font-family: Medium;
+  src: url(../public/fonts/SpaceGrotesk-Medium.ttf);
+}
+@font-face {
+  font-family: Regular;
+  src: url(../public/fonts/SpaceGrotesk-Regular.ttf);
+}
+@font-face {
+  font-family: SemiBold;
+  src: url(../public/fonts/SpaceGrotesk-SemiBold.ttf);
+}
+
+/* ----------------------------------------------------------------------------------------------- */
