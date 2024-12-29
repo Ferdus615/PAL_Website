@@ -1,9 +1,20 @@
 const App = () => {
   return (
     <div>
-      <div className="logo">
-        <nav><img src="" alt="" /></nav>
-      </div>
+      <nav>
+        <div className="nav_logo">
+          <img src="Logo PAL.png" alt="PAL logo" />
+        </div>
+        <div className="nva-links">
+          <ul>
+            <li href="#">Products</li>
+            <li href="#">About</li>
+            <li href="#">News</li>
+            <li href="#">Blogs</li>
+            <li href="#">Contact</li>
+          </ul>
+        </div>
+      </nav>
     </div>
   );
 };
