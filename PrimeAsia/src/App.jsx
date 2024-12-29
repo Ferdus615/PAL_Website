@@ -3,7 +3,7 @@ const App = () => {
     <div>
       <nav>
         <div className="nav_logo">
-          <img src="Logo PAL.png" alt="PAL logo" />
+          <img src="pal logo nav.svg" alt="PAL logo" />
         </div>
         <div className="nva-links">
           <ul>
