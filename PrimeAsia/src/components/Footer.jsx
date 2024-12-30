@@ -33,32 +33,37 @@ const Footer = () => {
 
           <div className="email">
             <img src="./images/email_black.svg" alt="Email_icon" />
-            <p>salesdesk.primegroup@gmail.com</p>
+            <a href="http://salesdesk.primegroup@gmail.com" target="_blank">
+              salesdesk.primegroup@gmail.com
+            </a>
           </div>
         </div>
 
         <div className="socials">
           <img src="./images/facebook.png" alt="facebook" />
-          <a href="https://www.facebook.com/primeautomationsltd" target="blank">
+          <a
+            href="https://www.facebook.com/primeautomationsltd"
+            target="_blank"
+          >
             Facebook
           </a>
           <img src="./images/twitter.png" alt="twitter" />
-          <a href="https://twitter.com/Prime_ltd_bd" target="blank">
+          <a href="https://twitter.com/Prime_ltd_bd" target="_blank">
             X / Twitter
           </a>
           <img src="./images/linkedin.png" alt="linkedin" />
           <a
             href="https://www.linkedin.com/company/primeautomationsltd/"
-            target="blank"
+            target="_blank"
           >
             linkedin
           </a>
           <img src="./images/whatsapp.png" alt="whatsapp" />
-          <a href="https://api.whatsapp.com/send?8801769093465" target="blank">
+          <a href="https://api.whatsapp.com/send?8801769093465" target="_blank">
             WhatsApp
           </a>
           <img src="./images/youtube.png" alt="youtube" />
-          <a href="https://www.youtube.com/@primeutomationsltd" target="blank">
+          <a href="https://www.youtube.com/@primeutomationsltd" target="_blank">
             YouTube
           </a>
         </div>

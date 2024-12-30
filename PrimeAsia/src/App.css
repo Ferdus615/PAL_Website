@@ -173,6 +173,7 @@ footer {
   grid-row: 3 / 4;
   font-family: Light;
 }
+
 .location,
 .phone,
 .email {
@@ -182,14 +183,16 @@ footer {
 }
 .location p,
 .phone p,
-.email p {
+.email a {
   padding-left: 10px;
   font-family: Light;
   transition: color 0.25s;
+  text-decoration: none;
+  color: #011003;
 }
 .location p:hover,
 .phone p:hover,
-.email p:hover {
+.email a:hover {
   color: #404df5;
 }
 
