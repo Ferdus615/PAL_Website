@@ -57,7 +57,7 @@ nav {
 /* ----------------------------------------------------------------------------------------------- */
 
 .hero {
-  height: 80vh;
+  height: 90vh;
   width: 100%;
   overflow: hidden;
   display: flex;
@@ -75,7 +75,7 @@ nav {
 .overlay {
   position: absolute;
   width: 100%;
-  height: 80vh;
+  height: 90vh;
   /* background-color: rgba(144, 238, 144, 0.5); */
   /* background-color: #85c1f985; */
   background: linear-gradient(
@@ -106,40 +106,54 @@ nav {
 
 /* ----------------------------------------------------------------------------------------------- */
 
-footer {
-  background-color: #404df5;
-  height: 300px;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-}
-.quote img {
-  position: absolute;
-  width: 100px;
-  z-index: -1;
-  transform: rotate(180deg);
+.para {
+  height: 100vh;
+  width: 100%;
 
-  top: -41px;
-}
-.info {
-  position: relative;
-  z-index: 1;
-  font-family: Light;
-  color: #f6fff8;
-  letter-spacing: 0.1em;
+  font-family: Regular;
+  font-size: 70px;
   text-align: justify;
 
-  grid-column: 1 / 3;
-  grid-row: 3 / 4;
-  padding-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+
+  background-color: #011003;
+  color: #f6fff8;
 }
 
-.contact {
-  grid-column: 3 / 5;
-  grid-row: 3 / 4;
-  padding-left: 50px;
+/* ----------------------------------------------------------------------------------------------- */
+
+footer {
+  background-color: #85c1f9;
+  height: 400px;
+  display: grid;
+  grid-template-columns: 50px repeat(8, 1fr) 50px;
+  grid-template-rows: repeat(5, 1fr);
+  gap: 30px;
 }
 
+.Name {
+  font-size: 1.5em;
+  grid-column: 2 / 4;
+  grid-row: 2 / 3;
+  font-family: Bold;
+  color: #404df5;
+}
+.info {
+  grid-column: 2 / 5;
+  grid-row: 3 / 5;
+  font-family: Light;
+  text-align: justify;
+  color: #505050;
+}
+
+.contacts {
+  grid-column: 5 / 8;
+  grid-row: 3 / 4;
+  font-family: Light;
+}
 .location,
 .phone,
 .email {
@@ -157,17 +171,16 @@ footer {
 .location p:hover,
 .phone p:hover,
 .email p:hover {
-  color: #f6fff8;
+  color: #f6fff883;
 }
 
 .socials {
   display: grid;
   grid-template-columns: 25px 100px;
   grid-template-rows: repeat(5, 1fr);
-  padding-left: 50px;
 
   gap: 5px;
-  grid-column: 5 / 6;
+  grid-column: 8 / 9;
   grid-row: 3 / 4;
 }
 
@@ -178,12 +191,45 @@ footer {
 }
 .socials a:hover {
   text-decoration: none;
-  color: #f6fff8;
+  color: #f6fff883;
 }
 
 .socials img {
   width: 20px;
   grid-column: 1 / 2;
+}
+
+.blogs {
+  grid-column: 9 / 10;
+  grid-row: 3 / 4;
+  font-family: Light;
+}
+.blogs ul {
+  list-style: none;
+}
+.blog-link {
+  font-family: Regular;
+  font-size: 1.5em;
+  grid-column: 9 / 10;
+  grid-row: 2;
+}
+.blogs a {
+  text-decoration: none;
+  color: #011003;
+}
+
+.line {
+  border-top: 1px solid black;
+  grid-column: 2 / 10;
+  grid-row: 4;
+}
+
+.copyright {
+  grid-column: 2 / 5;
+  grid-row: 4;
+
+  font-family: Light;
+  padding-top: 30px;
 }
 
 /* ----------------------------------------------------------------------------------------------- */
