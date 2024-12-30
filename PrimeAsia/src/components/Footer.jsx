@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div>
+    <div id="Footer">
       <footer>
         <div className="Name">
           <p> Prime Automations Ltd.</p>
@@ -14,6 +14,9 @@ const Footer = () => {
           </p>
         </div>
 
+        <div className="contact-title">
+          <p>Contacts</p>
+        </div>
         <div className="contacts">
           <div className="location">
             <img src="./images/location_black.svg" alt="Location_icon" />
@@ -80,7 +83,14 @@ const Footer = () => {
         <div className="line"></div>
 
         <div className="copyright">
-          <p>&copy; copyright Rights Reserved by Prime Automations Ltd.</p>
+          <p>
+            &copy; Copyright 2024,
+            <br /> All Rights Reserved by Prime Automations Ltd.
+          </p>
+        </div>
+
+        <div className="chat">
+          <a href="#">Chat with Us</a>
         </div>
       </footer>
     </div>
