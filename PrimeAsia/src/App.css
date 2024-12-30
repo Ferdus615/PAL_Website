@@ -107,11 +107,11 @@ nav {
 /* ----------------------------------------------------------------------------------------------- */
 
 .para {
-  height: 100vh;
+  height: 50vh;
   width: 100%;
 
   font-family: Regular;
-  font-size: 70px;
+  font-size: 50px;
   text-align: justify;
 
   display: flex;

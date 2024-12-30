@@ -2,10 +2,10 @@ const WeAre = () => {
   return (
     <div className="para">
       <p>
-        We deliver <u>user-friendly</u>, <u>high-quality</u> <u>machinery</u>{" "}
-        and <u>software solutions</u> for the <u>textile</u> manufacturing{" "}
-        <u>industry</u>. We prioritize strong <u>client relationships</u> and
-        ensure <u>reliable</u>, responsive <u>support</u>.
+        We deliver user-friendly, <u>high-quality</u> machinery and software{" "}
+        <u>solutions</u> for the textile manufacturing <u>industry</u>. We
+        prioritize strong client <u>relationships</u> and ensure reliable,
+        responsive <u>support</u>.
       </p>
     </div>
   );
